@@ -1,0 +1,417 @@
+@import url('https://fonts.cdnfonts.com/css/nekluch-trial');
+@import url('https://fonts.cdnfonts.com/css/dark-mood');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+#root {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Open Sans, Roboto, Arial, Helvetica, sans-serif, SimSun;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0.7rem;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    height: 8vh;
+    background-color: #d9d9d9d1;
+    backdrop-filter: blur(7px);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.kent {
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    font-family: 'Dark Mood', sans-serif;                                        
+}
+
+.mobile-toggle {
+    width: 12%;
+    float: inline-end;
+}
+
+nav button {
+    border: none;
+    height: 10vh;
+    background-color: transparent;
+    position: relative;
+    left: 9rem;
+    top: 0;
+    font-size: 2em;
+    color: #fff;
+}
+
+.mobile-toggle button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-toggle .bar {
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+}
+
+header .nav-menu {
+    display: none;
+    width: 60%;
+    height: 50vh;
+    z-index: 1000;
+    justify-content: center;
+    position: relative;
+    left: 9.1rem;
+    bottom: 3rem;
+    background-color: rgb(41 39 39 / 90%);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px #fff, -1px -1px 3px #fff;
+}
+
+header .nav-menu.visible {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    margin-top: -5rem;
+}
+
+header li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header li a {
+    font-family: 'Dear Dreamer', sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.hero-container img {
+    width: 85%;
+    float: right;
+}
+
+.hero-container p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: justify;
+    line-height: 1.4;
+    margin-top: 2rem;
+    padding: 0 0.7rem;
+    font-family: 'NEKLUCH Trial', sans-serif;
+}
+
+.for-space {
+    padding-bottom: 3.5rem;
+}
+
+.bg-hero-container {
+    height: 55rem;
+    background-size: cover;
+}
+
+.businesses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -10rem;
+    clear: both;
+}
+
+.businesses-sub-container {
+    width: 45%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+}
+
+.businesses-sub-container img {
+    width: 100%;
+    height: 25%;
+}
+
+.content span {
+    display: flex;
+    align-items: center;
+    color: #111827;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+}
+
+.content span #loc {
+    width: 10%;
+    height: 2vh;
+}
+
+.content p,
+.about-us p,
+.add-buz p,
+.contact p {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.content a {
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.about-business {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.about-business div h2 {
+    color: #111827;
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about-us,
+.add-buz,
+.contact {
+    width: 50%;
+    padding: 0.5rem;
+    background-color: #2c3e501f;
+    box-shadow: 1px 1px 3px #5a5a5a, -1px -1px 3px #5a5a5a;
+    border-radius: 0.5rem;
+}
+
+.add-buz {
+    height: fit-content;
+    background-color: #fff;
+}
+
+.contact {
+    width: 96%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #1681eb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 0.7rem;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 50s linear infinite;
+}
+
+.marquee p {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    .mobile-toggle,
+    header nav button {
+        display: none;
+    }
+
+    header .nav-menu {
+        width: 32rem;
+        height: 6vh;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+
+    header .nav-menu ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    header .nav-menu.visible {
+        display: flex;
+    }
+
+    header li a {
+        font-size: 1.27rem;
+    }
+
+    .kent {
+        font-size: 1.7rem;
+    }
+
+    .bg-hero-container {
+        height: 142vh;
+    }
+
+    .hero-container div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hero-container p {
+        width: 55%;
+        height: fit-content;
+        font-size: 1.6rem;
+        line-height: 1.6;
+        text-align: center;
+        margin-left: 4rem;
+        margin-top: 4rem;
+    }
+
+    .hero-container img {
+        width: 40%;
+    }
+
+    .businesses-container {
+        margin-top: -20rem;
+        gap: 2rem;
+    }
+
+    .businesses-sub-container {
+        width: 30%;
+    }
+
+    .businesses-sub-container img {
+        height: 40%;
+    }
+
+    .about-business div h2 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 0.8rem;
+    }
+
+    .content span {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .content a {
+        font-size: 1rem;
+        width: 30%;
+        text-align: center;
+        align-self: baseline;
+        height: 5vh;
+        margin-top: 0;
+        padding: 0.7rem 0;
+        font-weight: 700;
+    }
+
+    .content p,
+    .about-us p,
+    .add-buz p, 
+    .contact p {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        line-height: 1.2;
+    }
+
+    .content span #loc {
+        width: 10%;
+        height: 3vh;
+    }
+
+    .about-business {
+        width: 80%;
+        gap: 2rem;
+        margin: 1rem auto;
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .contact span {
+        font-size: 2rem;
+    }
+
+    footer {
+        right: 0;
+        left: 0;
+    }
+
+    .marquee p {
+        font-size: 1.5rem;
+    }
+}
