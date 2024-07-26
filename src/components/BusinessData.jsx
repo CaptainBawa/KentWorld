@@ -53,9 +53,9 @@ const businessData = [
   {
     id: 6,
     image: sika,
-    business_name: 'Sika&apos;s Beauty Parlou',
+    business_name: "Sika's Beauty Parlou",
     location: 'Adako Jachie',
-    business_description: 'Welcome to Sika&apos;s Beauty Parlour, where beauty meets excellence. We specialize in providing top-notch beauty services that cater to your every need. Whether you are preparing for a special occasion or simply looking to pamper yourself, our skilled professionals are here to help you look and feel your best.',
+    business_description: "Welcome to Sika's Beauty Parlour, where beauty meets excellence. We specialize in providing top-notch beauty services that cater to your every need. Whether you are preparing for a special occasion or simply looking to pamper yourself, our skilled professionals are here to help you look and feel your best.",
     contact: '0555695821',
   },
   {
@@ -69,17 +69,17 @@ const businessData = [
   {
     id: 8,
     image: lyns,
-    business_name: 'D&apos;Lyns Condos',
+    business_name: "D'Lyns Condos",
     location: 'Koforidua - Apenkwa',
-    business_description: 'Welcome to D&apos;Lyns Condos, your luxury haven in the heart of Koforidua. We offer top-tier apartments and hotel accommodations designed to provide comfort, elegance, and exceptional service to our guests.',
+    business_description: "Welcome to D'Lyns Condos, your luxury haven in the heart of Koforidua. We offer top-tier apartments and hotel accommodations designed to provide comfort, elegance, and exceptional service to our guests.",
     contact: '0539100702',
   },
   {
     id: 9,
     image: kelly,
-    business_name: 'Kelly&apos;s Apple Phones and Accessories',
+    business_name: "Kelly's Apple Phones and Accessories",
     location: 'Asafo - Kumasi',
-    business_description: 'Kelly&apos;s Apple Phones and Accessories specializes in offering a wide range of iPhones and related accessories. We are dedicated to providing our customers with high-quality products and exceptional service.',
+    business_description: "Kelly's Apple Phones and Accessories specializes in offering a wide range of iPhones and related accessories. We are dedicated to providing our customers with high-quality products and exceptional service.",
     contact: '0248891688',
   },
   {
