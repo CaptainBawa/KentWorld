@@ -338,12 +338,13 @@ footer {
     }
 
     .businesses-container {
-        margin-top: -20rem;
+        margin-top: -10rem;
         gap: 2rem;
     }
 
     .businesses-sub-container {
         width: 30%;
+        margin-top: -10rem;
     }
 
     .businesses-sub-container img {
