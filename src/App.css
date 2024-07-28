@@ -203,6 +203,11 @@ header li a {
     border-radius: 4px;
 }
 
+.content p button {
+    border: none;
+    background-color: transparent;
+}
+
 .about-business {
     display: flex;
     gap: 0.4rem;
