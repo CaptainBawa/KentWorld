@@ -1,7 +1,6 @@
 import Business from './Business';
 import NavBar from './NavBar';
 import Hero from './Hero';
-// import wave from '../assets/wave.svg';
 import AboutAddBiz from './AboutAddBuz';
 import Contact from './Contact';
 import Footer from './Footer';
