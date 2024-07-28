@@ -133,6 +133,7 @@ header li a {
 }
 
 .bg-hero-container {
+    background-image: url('./assets//wave.svg');
     height: 55rem;
     background-size: cover;
 }
