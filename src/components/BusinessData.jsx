@@ -24,6 +24,10 @@ import oldman from '../assets/oldman.jpg';
 import oldmanshot from '../assets/oldmanshot.jpg';
 import kiki from '../assets/kiki.jpg';
 import blue from '../assets/blue.jpg';
+import richc from '../assets/richc.jpg';
+import yummy from '../assets/yummy.jpg';
+import beva from '../assets/beva.jpg';
+import osy from '../assets/osy.jpg';
 
 const businessData = [
   {
@@ -233,6 +237,38 @@ const businessData = [
     location: 'Kumasi',
     business_description: 'Products Offered: Clothes, Jewelry, Slippers,Shoes, Quality clothing from SHEIN, Home appliances from China. We deliver nationwide. For stylish apparel and accessories, shop with BLUE APPAREL. Contact us via WhatsApp, Snapchat, or Instagram to place your order today!',
     contact: '0508469326',
+  },
+  {
+    id: 26,
+    image: richc,
+    business_name: "RICHCS Travel Agency",
+    location: 'Assin Foso. Kumasi - Ahodwo',
+    business_description: 'OUR SERVICES: Birth Certificate & Passport Application, Study Abroad Programs, Car Rental, Holidays & Tours, VISA Application Assistance, Work Opportunities in Dubai, Kuwait, Saudi Arabia, Qatar, etc., Flight Bookings, Travel Insurance, VISA Appointment Bookings, Domestic & International Tours. Email: richotravelagency@gmail.com',
+    contact: '0245215383',
+  },
+  {
+    id: 27,
+    image: yummy,
+    business_name: "SIKA'S Yummy Inn Menu",
+    location: 'Location',
+    business_description: 'Main Dishes: Jollof Rice with Chicken/Fish/Pork: GHC 45, Assorted Jollof Rice with Chicken/Fish/Pork: GHC 50, Car Rental, Fried Rice with Chicken: GHC 40, Assorted Fried Rice with Chicken: GHC 45, Fantasy Angwamo with Beef, Fried Egg, Sardine, and Sausage: GHC 35. Special Orders: Fufu with Light/Groundnut Soup (Chicken/Cow Meat): GHC 55, Omotuo with Groundnut Soup (Cow Meat/Fish): GHC 55. Snacks: Sobolo, Spring Rolls, and Samosa: GHC 20. *Note:* Comes with free mint toffee or chewing gum.',
+    contact: '0555695821',
+  },
+  {
+    id: 28,
+    image: beva,
+    business_name: "Beva Foods",
+    location: 'Asankragwa Motta',
+    business_description: 'Menu: Aponkye Jollof: Served with Plantain/Goat, Salad/Shito - **GHS 70*',
+    contact: '0249796504',
+  },
+  {
+    id: 29,
+    image: osy,
+    business_name: "OSY Tech Data Hub",
+    location: 'Location',
+    business_description: 'Small Bundles (No Expiry): 1GB - GHC 6, 2GB - GHC 11, 3GB - GHC 17, 4GB - GHC 21, 5GB - GHC 27, 6GB - GHC 32, 8GB - GHC 39, 10GB - GHC 47, 15GB - GHC 69, 20GB - GHC 89. Big Bundles: 30GB - GHC 128, 40GB - GHC 170, 50GB - GHC 209',
+    contact: '0534210817',
   }
 ];
 
