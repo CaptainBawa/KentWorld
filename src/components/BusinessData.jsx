@@ -231,7 +231,7 @@ const businessData = [
     contact: '0240165505',
   },
   {
-    id: 25,
+    id: 26,
     image: blue,
     business_name: "BLUE'S APPAREL",
     location: 'Kumasi',
@@ -239,7 +239,7 @@ const businessData = [
     contact: '0508469326',
   },
   {
-    id: 26,
+    id: 27,
     image: richc,
     business_name: "RICHCS Travel Agency",
     location: 'Assin Foso. Kumasi - Ahodwo',
@@ -247,7 +247,7 @@ const businessData = [
     contact: '0245215383',
   },
   {
-    id: 27,
+    id: 28,
     image: yummy,
     business_name: "SIKA'S Yummy Inn Menu",
     location: 'Location',
@@ -255,7 +255,7 @@ const businessData = [
     contact: '0555695821',
   },
   {
-    id: 28,
+    id: 29,
     image: beva,
     business_name: "Beva Foods",
     location: 'Asankragwa Motta',
@@ -263,7 +263,7 @@ const businessData = [
     contact: '0249796504',
   },
   {
-    id: 29,
+    id: 30,
     image: osy,
     business_name: "OSY Tech Data Hub",
     location: 'Location',
