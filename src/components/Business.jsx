@@ -3,6 +3,8 @@ import businessData from './BusinessData';
 
 const Business = () => {
   const [expanded, setExpanded] = useState({});
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalImage, setModalImage] = useState('');
 
   const handleToggle = (id) => {
     setExpanded((prevState) => ({
@@ -11,11 +13,25 @@ const Business = () => {
     }));
   };
 
+  const handleImageClick = (image) => {
+    setModalImage(image);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setModalImage('');
+  };
+
   return (
     <section className="businesses-container">
       {businessData.map((business) => (
         <div className="businesses-sub-container" key={business.id}>
-          <img src={business.image} alt={business.business_name} />
+          <img
+            src={business.image}
+            alt={business.business_name}
+            onClick={() => handleImageClick(business.image)}
+          />
           <div className="content">
             <span>{business.business_name}</span>
             <span>
@@ -34,6 +50,13 @@ const Business = () => {
           </div>
         </div>
       ))}
+
+      {modalOpen && (
+        <div className="modal" onClick={closeModal}>
+          <span className="close">&times;</span>
+          <img className="modal-content" src={modalImage} alt="Full Size" />
+        </div>
+      )}
     </section>
   );
 };
