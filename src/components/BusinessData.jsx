@@ -35,7 +35,7 @@ const businessData = [
     image: asiedua,
     business_name: 'Asiedua Cleaning Services',
     location: 'Location',
-    business_description: 'Asiedua Cleaning Services is dedicated to delivering exceptional cleaning solutions for residential and commercial properties. Our professional team is just a call away, ready to provide top-quality cleaning services tailored to your needs.',
+    business_description: 'Asiedua Cleaning Services is dedicated to delivering exceptional cleaning solutions for residential and commercial properties. Our professional team is just a call away, ready to provide top-quality cleaning services tailored to your needs. Our Services: *Residential Cleaning:* Comprehensive cleaning services for homes, including regular housekeeping, deep cleaning, and move-in/move-out cleaning. *Commercial Cleaning:* Office and commercial space cleaning, ensuring a clean and productive environment. *Specialized Cleaning:* Tailored cleaning solutions for unique needs, including post-construction cleaning, carpet cleaning, and window washing. For bookings and more details, visit our website at [www.asieduacleaningservices.com]',
     contact: '0545672516',
   },
   {
@@ -51,7 +51,7 @@ const businessData = [
     image: naff,
     business_name: 'FuHair Bliss',
     location: 'Location',
-    business_description: 'Free Melt Band with every frontal wig purchase. Free Plastic Wig Stand with every closure wig purchase',
+    business_description: 'Free Melt Band with every frontal wig purchase. Free Plastic Wig Stand with every closure wig purchase. Instagram: @naffhairbliss',
     contact: '0557151765',
   },
   {
@@ -75,7 +75,7 @@ const businessData = [
     image: sika,
     business_name: "Sika's Beauty Parlou",
     location: 'Adako Jachie',
-    business_description: "Welcome to Sika's Beauty Parlour, where beauty meets excellence. We specialize in providing top-notch beauty services that cater to your every need. Whether you are preparing for a special occasion or simply looking to pamper yourself, our skilled professionals are here to help you look and feel your best.",
+    business_description: "Welcome to Sika's Beauty Parlour, where beauty meets excellence. We specialize in providing top-notch beauty services that cater to your every need. Whether you are preparing for a special occasion or simply looking to pamper yourself, our skilled professionals are here to help you look and feel your best. Our Services: Wig Fixing: Expert wig installation services for a flawless look. Wig Making: Custom-made wigs crafted to suit your style and preferences. Nails: Comprehensive nail care and styling, including manicures and pedicures. Bridal Makeup: Stunning bridal makeup to make your special day even more memorable. Instagram: [@NampomaahSika](https://www.instagram.com/NampomaahSika)",
     contact: '0555695821',
   },
   {
@@ -83,7 +83,7 @@ const businessData = [
     image: vee,
     business_name: 'Vee the Therapist',
     location: 'Kwadaso, opposite JO & JU',
-    business_description: 'Vee the Therapist is your go-to destination for rejuvenating and therapeutic beauty treatments. Located conveniently in Kwadaso, opposite JO & JU Fuel Station, we specialize in a wide range of services designed to enhance your beauty and well-being. Our experienced therapists are committed to providing exceptional care tailored to meet your individual needs.',
+    business_description: 'Vee the Therapist is your go-to destination for rejuvenating and therapeutic beauty treatments. Located conveniently in Kwadaso, opposite JO & JU Fuel Station, we specialize in a wide range of services designed to enhance your beauty and well-being. Our experienced therapists are committed to providing exceptional care tailored to meet your individual needs. Instagram:[Vee_the_therapist](https://instagram.com/Vee_the_therapist). Our Services: Facials: Rejuvenate your skin with our professional facial treatments. Massage: Relax and unwind with our soothing massage services. Pedicure/Manicure: Complete nail care and styling for hands and feet. Waxing: Smooth and hair-free skin with our expert waxing services. Stretch Marks Removal: Effective treatments to reduce the appearance of stretch marks. Body Polish: Exfoliate and refresh your skin with our body polish treatments. Ear Piercing: Safe and professional ear piercing services. Wood Therapy: Innovative wood therapy for body contouring and cellulite reduction. Eyebrow Tint/Lamination: Enhance and shape your eyebrows with tinting and lamination. Cavitation/Fat Reduction: Non-invasive fat reduction treatments to help you achieve your body goals. Vacuum Butt Lift: Lift and tone with our vacuum butt lift treatments.',
     contact: '0248829458',
   },
   {
@@ -91,7 +91,7 @@ const businessData = [
     image: lyns,
     business_name: "D'Lyns Condos",
     location: 'Koforidua - Apenkwa',
-    business_description: "Welcome to D'Lyns Condos, your luxury haven in the heart of Koforidua. We offer top-tier apartments and hotel accommodations designed to provide comfort, elegance, and exceptional service to our guests.",
+    business_description: "Welcome to D'Lyns Condos, your luxury haven in the heart of Koforidua. We offer top-tier apartments and hotel accommodations designed to provide comfort, elegance, and exceptional service to our guests.Our Services: *Luxury Apartments:* Stylish and comfortable living spaces equipped with modern amenities. *Hotel Accommodations:* Elegant and well-appointed hotel rooms for short-term and long-term stays. Email: dlynscondos@gmail.com",
     contact: '0539100702',
   },
   {
@@ -99,7 +99,7 @@ const businessData = [
     image: kelly,
     business_name: "Kelly's Apple Phones and Accessories",
     location: 'Asafo - Kumasi',
-    business_description: "Kelly's Apple Phones and Accessories specializes in offering a wide range of iPhones and related accessories. We are dedicated to providing our customers with high-quality products and exceptional service.",
+    business_description: "Kelly's Apple Phones and Accessories specializes in offering a wide range of iPhones and related accessories. We are dedicated to providing our customers with high-quality products and exceptional service. Our Products: iPhones: Latest models and various options to suit different needs and budgets. Smart Watches: Cutting-edge smartwatches compatible with iPhones. iPhone Covers: Stylish and protective covers for all iPhone models. iPhone Accessories: A variety of accessories including chargers, earphones, and more.",
     contact: '0248891688',
   },
   {
@@ -107,7 +107,7 @@ const businessData = [
     image: sparkles,
     business_name: 'Sparkles Court',
     location: 'Location',
-    business_description: 'At Sparkles Court, we specialize in offering a wide range of high-quality perfumes, body sprays, and oil perfumes at affordable prices. Our curated selection ensures that you can find the perfect scent to suit your style and preferences.',
+    business_description: 'At Sparkles Court, we specialize in offering a wide range of high-quality perfumes, body sprays, and oil perfumes at affordable prices. Our curated selection ensures that you can find the perfect scent to suit your style and preferences. *Instagram:* [@sparkles_court](https://instagram.com/sparkles_court). Our Products: *Perfumes:* Discover our diverse collection of premium perfumes, including renowned brands like Coco Noir by Chanel Paris. *Body Sprays:* Refresh yourself with our selection of invigorating body sprays. *Oil Perfumes:* Experience the long-lasting and concentrated fragrances of our oil perfumes.',
     contact: '08142602951',
   },
   {
@@ -115,7 +115,7 @@ const businessData = [
     image: ike,
     business_name: 'Phone Accessories/Metal Galvanize Plates',
     location: 'Location',
-    business_description: 'Sell/Swap Phones, Car Running Boards, Metal Galvanize Plates, Round Pipes, etc.',
+    business_description: 'Our Services: Sell/Swap Phones, Car Running Boards, Metal Galvanize Plates, Round Pipes, etc.',
     contact: '0557440433',
   },
   {
@@ -123,7 +123,7 @@ const businessData = [
     image: black,
     business_name: 'Black Royals',
     location: 'Location',
-    business_description: 'For exceptional service and seamless event coordination, trust Black Royals to make your occasion memorable.',
+    business_description: 'For exceptional service and seamless event coordination, trust Black Royals to make your occasion memorable. Instagram: @blackushering | @blackroyalushering, Email: Hansenbirdget18@gmail.com. Our Services: Ushering, Coordinating, Waiting',
     contact: '0202224539',
   },
   {
@@ -131,7 +131,7 @@ const businessData = [
     image: bass,
     business_name: 'Bassgloss Lipcare Products',
     location: 'Location',
-    business_description: 'Lipglosses, Lip Scrubs, Lip Masks, Lip Brushes, Lip Oils, Enhance and care for your lips with our luxurious and effective products from Themimi.',
+    business_description: 'Our Products: Lipglosses, Lip Scrubs, Lip Masks, Lip Brushes, Lip Oils, Enhance and care for your lips with our luxurious and effective products from Themimi.',
     contact: '0534678150',
   },
   {
@@ -139,7 +139,7 @@ const businessData = [
     image: lamech,
     business_name: 'RFFC LAMECH',
     location: 'Location',
-    business_description: 'Apple Subscription: Apple Music, iCloud Storage. CashApp and PayPal: Buying of Gift Cards available at your own rate, MTN & TIGO Non-Expiry Data, Apple Services Provided: TV, Apple. For reliable subscription services and flexible financial transactions, connect with RFFC LAMECH today.',
+    business_description: 'Subscriptions and Services: Apple Subscription: Apple Music, iCloud Storage. CashApp and PayPal: Buying of Gift Cards available at your own rate, MTN & TIGO Non-Expiry Data, Apple Services Provided: TV, Apple. For reliable subscription services and flexible financial transactions, connect with RFFC LAMECH today.',
     contact: '0557028405',
   },
   {
@@ -147,7 +147,7 @@ const businessData = [
     image: nora,
     business_name: 'Rashed by Nara',
     location: 'Ablekuma-Anyaa, NIC',
-    business_description: 'Connect with Rashed by Nara for exceptional products and services. Reach out to us via phone or follow us on Instagram for updates and promotions.',
+    business_description: 'Connect with Rashed by Nara for exceptional products and services. Reach out to us via phone or follow us on Instagram for updates and promotions. Instagram: [@akuahn22](https://www.instagram.com/akuahn22)',
     contact: '0501295629',
   },
   {
@@ -155,7 +155,7 @@ const businessData = [
     image: dark,
     business_name: 'DARK HUB',
     location: 'Location',
-    business_description: 'Subscriptions We Offer: Apple Music, Spotify Premium, iCloud Storage, Apple TV, Netflix, Snapchat+, Microsoft Office 365, And more. Stay connected and enjoy premium services with DARK HUB. Contact us for all your subscription needs.',
+    business_description: 'Subscriptions We Offer: Apple Music, Spotify Premium, iCloud Storage, Apple TV, Netflix, Snapchat+, Microsoft Office 365, And more. Stay connected and enjoy premium services with DARK HUB. Contact us for all your subscription needs. Instagram: [@dark.fx](https://www.instagram.com/dark.fx) | [@darkforeal](https://www.instagram.com/darkforeal)',
     contact: '0550761025',
   },
   {
@@ -163,7 +163,7 @@ const businessData = [
     image: fiz,
     business_name: 'TrIZTRENDS',
     location: 'Location',
-    business_description: 'We Offer:  LORIS, AVENTOS, ASRU "AIR", Gaspete, Shoes, Sirens, Slides, And more. For the latest trends and high-quality products, shop now with TrIZTRENDS.',
+    business_description: 'We Offer:  LORIS, AVENTOS, ASRU "AIR", Gaspete, Shoes, Sirens, Slides, And more. For the latest trends and high-quality products, shop now with TrIZTRENDS. Instagram: [@fiztrends](https://www.instagram.com/fiztrends)',
     contact: '0593924308',
   },
   {
@@ -171,7 +171,7 @@ const businessData = [
     image: est,
     business_name: 'EST LOGISTICS',
     location: 'Location',
-    business_description: 'Our Services:  Import & Export, Clearing & Forwarding, Warehousing, Customs Brokerage, Haulage Solutions, Project Cargo, Door-to-Door Shipping, General Shipping Consultancy. For comprehensive logistics solutions tailored to your needs, trust EST LOGISTICS to deliver excellence every step of the way.',
+    business_description: 'Our Services:  Import & Export, Clearing & Forwarding, Warehousing, Customs Brokerage, Haulage Solutions, Project Cargo, Door-to-Door Shipping, General Shipping Consultancy. For comprehensive logistics solutions tailored to your needs, trust EST LOGISTICS to deliver excellence every step of the way. Email: estlogistics8@gmail.com',
     contact: '0208880397',
   },
   {
@@ -211,7 +211,7 @@ const businessData = [
     image: oldman,
     business_name: 'Oldman Africa Koncept',
     location: 'Mankessim - Central Region',
-    business_description: 'Frames: Order, Pay & Receive. Frame Sizes & Prices: (20" x 30") = 250 GHS, (12" x 16") = 100 GHS, (20" x 24") = 220 GHS, (11" x 13") = 70 GHS, (15" x 19") = 150 GHS, (7" x 9") = 35 GHS. For high-quality frames at competitive prices, trust Oldman Africa Koncept. Order now and receive your frames with ease.',
+    business_description: 'Frames: Order, Pay & Receive. Frame Sizes & Prices: (20" x 30") = 250 GHS, (12" x 16") = 100 GHS, (20" x 24") = 220 GHS, (11" x 13") = 70 GHS, (15" x 19") = 150 GHS, (7" x 9") = 35 GHS. For high-quality frames at competitive prices, trust Oldman Africa Koncept. Order now and receive your frames with ease. Instagram: [@Oldman_Africa](https://www.instagram.com/Oldman_Africa)',
     contact: '0241021294',
   },
   {
@@ -219,7 +219,7 @@ const businessData = [
     image: oldmanshot,
     business_name: 'Oldman Africa',
     location: 'Mankessim - Central Region',
-    business_description: 'Packages: Diamond = 2,500 GHS - (Videography, Photography, Pen Drive, 50 Pieces of Edited & Printed Photos, Ceramic Mug, PhotoBook, A3 Frame, Full Video + Trailer). Gold = 1,900 GHS - (Videography, Photography, Pen Drive, 25 Pieces of Edited & Printed Photos, Ceramic Mug, A3 Frame, Full Video + Trailer). Silver = 1,500 GHS - (Videography, Photography, Pen Drive, 20 Pieces of Edited & Printed Photos, A4 Frame, Traile). Captured Details: The Vows, The First Smile, The Sitting. For unforgettable memories and top-notch event coverage, trust Oldman Africa. Book your next event with us today.',
+    business_description: 'Packages: Diamond = 2,500 GHS - (Videography, Photography, Pen Drive, 50 Pieces of Edited & Printed Photos, Ceramic Mug, PhotoBook, A3 Frame, Full Video + Trailer). Gold = 1,900 GHS - (Videography, Photography, Pen Drive, 25 Pieces of Edited & Printed Photos, Ceramic Mug, A3 Frame, Full Video + Trailer). Silver = 1,500 GHS - (Videography, Photography, Pen Drive, 20 Pieces of Edited & Printed Photos, A4 Frame, Traile). Captured Details: The Vows, The First Smile, The Sitting. For unforgettable memories and top-notch event coverage, trust Oldman Africa. Book your next event with us today. Website: (http://www.oldman.com) | Email: korankyiedonkoh@gmail.com | Instagram: [@Oldman_Africa](https://www.instagram.com/Oldman_Africa) | Facebook: [Oldman](https://www.facebook.com/Oldman)',
     contact: '0241021294',
   },
   {
