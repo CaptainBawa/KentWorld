@@ -5,6 +5,7 @@ const Business = () => {
   const [expanded, setExpanded] = useState({});
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImage, setModalImage] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
   const handleToggle = (id) => {
     setExpanded((prevState) => ({
@@ -23,9 +24,33 @@ const Business = () => {
     setModalImage('');
   };
 
+  const handleCategoryClick = (category) => {
+    setSelectedCategory(category);
+  };
+
+  const uniqueCategories = ['All', ...new Set(businessData.map(business => business.category))];
+
+  const filteredBusinesses = selectedCategory === 'All'
+    ? businessData
+    : businessData.filter(business => business.category === selectedCategory);
+
   return (
-    <section className="businesses-container">
-      {businessData.map((business) => (
+    <section className="main-container">
+      <h2>Select category</h2>
+      <div className="category-buttons">
+        {uniqueCategories.map((category) => (
+          <button
+            key={category}
+            onClick={() => handleCategoryClick(category)}
+            className={selectedCategory === category ? 'active' : ''}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+      <h2>All categories</h2>
+    <div className="businesses-container">
+      {filteredBusinesses.map((business) => (
         <div className="businesses-sub-container" key={business.id}>
           <img
             src={business.image}
@@ -57,6 +82,7 @@ const Business = () => {
           <img className="modal-content" src={modalImage} alt="Full Size" />
         </div>
       )}
+    </div>
     </section>
   );
 };
