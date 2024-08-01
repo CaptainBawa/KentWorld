@@ -28,6 +28,12 @@ import richc from '../assets/richc.jpg';
 import yummy from '../assets/yummy.jpg';
 import beva from '../assets/beva.jpg';
 import osy from '../assets/osy.jpg';
+import bra from '../assets/bra.jpg';
+import creo from '../assets/creo.jpg';
+import john from '../assets/john.jpg';
+import egobee from '../assets/egobee.jpg';
+import afripush from '../assets/afripush.jpg';
+import eli from '../assets/eli.jpg';
 
 const businessData = [
   {
@@ -299,6 +305,60 @@ const businessData = [
     business_description: 'Small Bundles (No Expiry): 1GB - GHC 6, 2GB - GHC 11, 3GB - GHC 17, 4GB - GHC 21, 5GB - GHC 27, 6GB - GHC 32, 8GB - GHC 39, 10GB - GHC 47, 15GB - GHC 69, 20GB - GHC 89. Big Bundles: 30GB - GHC 128, 40GB - GHC 170, 50GB - GHC 209',
     contact: '0534210817',
     category: 'Internet',
+  },
+  {
+    id: 31,
+    image: bra,
+    business_name: "BRA CASH DESIGNS",
+    location: 'Tarkwa Ahweteiso',
+    business_description: 'OUR SERVICES: Graphic Designs, Video Shooting, Logo Making, Video Editing, Branding, Banners, Label Designs, Account Boosting, Document Editing, And many more. Email: chashbhluhe26@gmail.com',
+    contact: '0240 55554868',
+    category: 'Designers',
+  },
+  {
+    id: 32,
+    image: creo,
+    business_name: "Creo'fex Design",
+    location: 'Location',
+    business_description: 'OUR SERVICES: Graphic Designs, Video Shooting, Logo Making, Video Editing, Branding, Banners, Label Designs, Account Boosting, Document Editing, And many more. Email: chashbhluhe26@gmail.com',
+    contact: '024 695 8511',
+    category: 'Designers',
+  },
+  {
+    id: 33,
+    image: john,
+    business_name: "JOHN GRAPHICS",
+    location: 'Location',
+    business_description: 'OUR SERVICES: Graphic Designs, Video Editing, Branding, Content Writing, Affiliate Marketing',
+    contact: '08035029569',
+    category: 'Designers',
+  },
+  {
+    id: 34,
+    image: egobee,
+    business_name: "EGOBEE ACCESSORIES",
+    location: 'Location',
+    business_description: 'Dealer In: iPhones, iPads, Laptops, Smart Watches, Other Mobile Accessories',
+    contact: '0540481222',
+    category: 'Phones',
+  },
+  {
+    id: 35,
+    image: afripush,
+    business_name: "Africapush.com",
+    location: 'Location',
+    business_description: 'OUR SERVICES: Uploads of Audio Songs, Uploads of Music Videos, Hype of Stories, Intensive Promotion. Projecting The Image Of Africa. Website: (http://www.africapush.com)',
+    contact: '0247950003',
+    category: 'Internet',
+  },
+  {
+    id: 36,
+    image: eli,
+    business_name: "ZELI",
+    location: 'Location',
+    business_description: 'Deals In: Designer Bags, Dresses, Heels, Bedspreads, Clutches, Panties, And more. Start making orders now for instant delivery',
+    contact: '0503387633',
+    category: 'Fashion',
   }
 ];
 
