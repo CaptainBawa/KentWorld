@@ -273,7 +273,7 @@ const businessData = [
   {
     id: 27,
     image: richc,
-    business_name: "RICHCS Travel Agency",
+    business_name: "RICHCO Travel Agency",
     location: 'Assin Foso. Kumasi - Ahodwo',
     business_description: 'OUR SERVICES: Birth Certificate & Passport Application, Study Abroad Programs, Car Rental, Holidays & Tours, VISA Application Assistance, Work Opportunities in Dubai, Kuwait, Saudi Arabia, Qatar, etc., Flight Bookings, Travel Insurance, VISA Appointment Bookings, Domestic & International Tours. Email: richotravelagency@gmail.com',
     contact: '0245215383',
