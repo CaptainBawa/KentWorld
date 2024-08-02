@@ -66,9 +66,9 @@ const businessData = [
   {
     id: 4,
     image: glam,
-    business_name: 'GLAM & COSMETICS',
+    business_name: 'AB GLAM & COSMETICS',
     location: 'Dunkwa-On-Offin',
-    business_description: 'Come and experience the essence of class at GLAM & COSMETICS. We are a premier beauty and cosmetics provider, dedicated to offering exceptional services and products to enhance our clients beauty and confidence.',
+    business_description: 'Come and experience the essence of class at AB GLAM & COSMETICS. We are a premier beauty and cosmetics provider, dedicated to offering exceptional services and products to enhance our clients beauty and confidence.',
     contact: '0247692447',
     category: 'Beauty',
   },
