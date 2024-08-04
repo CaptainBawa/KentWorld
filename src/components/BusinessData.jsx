@@ -10,6 +10,9 @@ import kelly from '../assets/kelly.jpg';
 import sparkles from '../assets/sparkles.jpg';
 import ike from '../assets/ike.jpg';
 import black from '../assets/black.jpg';
+import black1 from '../assets/black1.jpg';
+import black2 from '../assets/black2.jpg';
+import black3 from '../assets/black3.jpg';
 import bass from '../assets/bass.jpg';
 import lamech from '../assets/lamech.jpg';
 import nora from '../assets/nora.jpg';
@@ -35,6 +38,7 @@ import john from '../assets/john.jpg';
 import egobee from '../assets/egobee.jpg';
 import afripush from '../assets/afripush.jpg';
 import eli from '../assets/eli.jpg';
+import eli1 from '../assets/eli1.jpg';
 
 const businessData = [
   {
@@ -138,7 +142,7 @@ const businessData = [
   },
   {
     id: 12,
-    images: [black, black, black, black],
+    images: [black, black1, black2, black3],
     business_name: 'Black Royals',
     location: 'Location',
     business_description: 'For exceptional service and seamless event coordination, trust Black Royals to make your occasion memorable. Instagram: @blackushering | @blackroyalushering, Email: Hansenbirdget18@gmail.com. Our Services: Ushering, Coordinating, Waiting',
@@ -354,7 +358,7 @@ const businessData = [
   },
   {
     id: 36,
-    images: [eli, eli, eli, eli],
+    images: [eli, eli1, eli, eli],
     business_name: "ZELI",
     location: 'Location',
     business_description: 'Deals In: Designer Bags, Dresses, Heels, Bedspreads, Clutches, Panties, And more. Start making orders now for instant delivery',
