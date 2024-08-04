@@ -30,6 +30,7 @@ import beva from '../assets/beva.jpg';
 import osy from '../assets/osy.jpg';
 import bra from '../assets/bra.jpg';
 import creo from '../assets/creo.jpg';
+import creo1 from '../assets/creo1.jpg';
 import john from '../assets/john.jpg';
 import egobee from '../assets/egobee.jpg';
 import afripush from '../assets/afripush.jpg';
@@ -317,7 +318,7 @@ const businessData = [
   },
   {
     id: 32,
-    images: [creo, creo, creo, creo],
+    images: [creo, creo1, creo, creo],
     business_name: "Creo'fex Design",
     location: 'Location',
     business_description: 'OUR SERVICES: Graphic Designs, Video Shooting, Logo Making, Video Editing, Branding, Banners, Label Designs, Account Boosting, Document Editing, And many more. Email: chashbhluhe26@gmail.com',
