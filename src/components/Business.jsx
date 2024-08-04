@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import businessData from './BusinessData';
 
 const Business = () => {
@@ -34,7 +35,7 @@ const Business = () => {
     ? businessData
     : businessData.filter(business => business.category === selectedCategory);
 
-  return (
+    return (
     <section className="main-container">
       <h2>Select category</h2>
       <div className="category-buttons">
@@ -53,9 +54,9 @@ const Business = () => {
       {filteredBusinesses.map((business) => (
         <div className="businesses-sub-container" key={business.id}>
           <img
-            src={business.image}
+            src={business.images[0]}
             alt={business.business_name}
-            onClick={() => handleImageClick(business.image)}
+            onClick={() => handleImageClick(business.images[0])}
           />
           <div className="content">
             <span>{business.business_name}</span>
@@ -71,7 +72,10 @@ const Business = () => {
                 {expanded[business.id] ? 'See less' : 'See more'}
               </button>
             </p>
-            <a href={`tel:${business.contact}`}>Call us</a>
+            <div className="cont-dels">
+              <a href={`tel:${business.contact}`}>Call us</a>
+              <Link to={`/business/${business.contact}`}>Find more</Link>
+            </div>
           </div>
         </div>
       ))}
