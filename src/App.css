@@ -209,8 +209,15 @@ header li a {
     text-align: justify;
 }
 
+.cont-dels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .content a,
-.category-buttons button {
+.category-buttons button,
+.details-container a {
     margin-top: 1rem;
     color: #ffffff;
     font-size: 0.875rem;
@@ -225,6 +232,48 @@ header li a {
 .content p button {
     border: none;
     background-color: transparent;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.details-container h2 {
+    color: #111827;
+    font-size: 1.7rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.details-container p {
+    color: #6B7280;
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    text-align: justify;
+    padding: 0 0.5rem;
+}
+
+.details-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 7vh;
+    margin: 1rem auto;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.details-container .back {
+    background-color: transparent;
+    position: fixed;
+    width: auto;
+    height: auto;
+    margin: 0;
+    z-index: 9000;
 }
 
 .about-business {
