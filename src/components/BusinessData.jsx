@@ -2,6 +2,7 @@ import asiedua from '../assets/asiedua.jpg';
 import tiens from '../assets/tiens.jpg';
 import naff from '../assets/naff.jpg';
 import glam from '../assets/glam.jpg';
+import glam1 from '../assets/glam1.jpg';
 import frame from '../assets/frame.jpg';
 import sika from '../assets/sika.jpg';
 import vee from '../assets/vee.jpg';
@@ -39,6 +40,10 @@ import egobee from '../assets/egobee.jpg';
 import afripush from '../assets/afripush.jpg';
 import eli from '../assets/eli.jpg';
 import eli1 from '../assets/eli1.jpg';
+import tek from '../assets/tek.jpg';
+import tek1 from '../assets/tek1.jpg';
+import tek2 from '../assets/tek2.jpg';
+
 
 const businessData = [
   {
@@ -70,7 +75,7 @@ const businessData = [
   },
   {
     id: 4,
-    images: [glam, glam, glam, glam],
+    images: [glam, glam1, glam, glam],
     business_name: 'AB GLAM & COSMETICS',
     location: 'Dunkwa-On-Offin',
     business_description: 'Come and experience the essence of class at AB GLAM & COSMETICS. We are a premier beauty and cosmetics provider, dedicated to offering exceptional services and products to enhance our clients beauty and confidence.',
@@ -364,6 +369,15 @@ const businessData = [
     business_description: 'Deals In: Designer Bags, Dresses, Heels, Bedspreads, Clutches, Panties, And more. Start making orders now for instant delivery',
     contact: '0503387633',
     category: 'Fashion',
+  },
+  {
+    id: 37,
+    images: [tek, tek1, tek2, tek],
+    business_name: "Tektrok Designs",
+    location: 'Location',
+    business_description: 'Tektrok Designs is a creative agency specializing in a wide array of design and branding services tailored to meet the diverse needs of our clients. We are passionate about transforming ideas into visually compelling and impactful designs. Services: Social Media Designs:* Enhance your online presence with captivating graphics tailored for social media platforms. E-Flyers:* Digital flyers that make your promotions and announcements stand out. *Invitation Designs:* Customized and elegant invitations for all occasions. *Motion Graphics:* Engaging and dynamic animations that bring your content to life. *Corporate Branding:* Comprehensive branding solutions to define and elevate your business identity. *T-Shirt Designs:* Unique and creative designs for custom apparel. Whether you need innovative designs for your social media, compelling motion graphics, or professional corporate branding, Tektrok Designs is here to help you achieve your vision. Let’s create something amazing together! *Email:* tectrokdesigns@gmail.com',
+    contact: '0595456881',
+    category: 'Designers',
   }
 ];
 
