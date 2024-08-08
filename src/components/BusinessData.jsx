@@ -1,4 +1,6 @@
 import asiedua from '../assets/asiedua.jpg';
+import asiedua1 from '../assets/asiedua1.jpg';
+import asiedua2 from '../assets/asiedua2.jpg';
 import tiens from '../assets/tiens.jpg';
 import naff from '../assets/naff.jpg';
 import glam from '../assets/glam.jpg';
@@ -20,6 +22,8 @@ import nora from '../assets/nora.jpg';
 import dark from '../assets/dark.jpg';
 import fiz from '../assets/fiz.jpg';
 import est from '../assets/est.jpg';
+import est1 from '../assets/est1.jpg';
+import est2 from '../assets/est2.jpg';
 import most from '../assets/most.jpg';
 import dkd from '../assets/dkd.jpg';
 import nameit from '../assets/nameit.jpg';
@@ -48,7 +52,7 @@ import tek2 from '../assets/tek2.jpg';
 const businessData = [
   {
     id: 1,
-    images: [asiedua, asiedua, asiedua, asiedua],
+    images: [asiedua, asiedua1, asiedua2, asiedua],
     business_name: 'Asiedua Cleaning Services',
     location: 'Location',
     business_description: 'Asiedua Cleaning Services is dedicated to delivering exceptional cleaning solutions for residential and commercial properties. Our professional team is just a call away, ready to provide top-quality cleaning services tailored to your needs. Our Services: *Residential Cleaning:* Comprehensive cleaning services for homes, including regular housekeeping, deep cleaning, and move-in/move-out cleaning. *Commercial Cleaning:* Office and commercial space cleaning, ensuring a clean and productive environment. *Specialized Cleaning:* Tailored cleaning solutions for unique needs, including post-construction cleaning, carpet cleaning, and window washing. For bookings and more details, visit our website at [www.asieduacleaningservices.com]',
@@ -201,7 +205,7 @@ const businessData = [
   },
   {
     id: 18,
-    images: [est, est, est, est],
+    images: [est, est1, est2, est],
     business_name: 'EST LOGISTICS',
     location: 'Location',
     business_description: 'Our Services:  Import & Export, Clearing & Forwarding, Warehousing, Customs Brokerage, Haulage Solutions, Project Cargo, Door-to-Door Shipping, General Shipping Consultancy. For comprehensive logistics solutions tailored to your needs, trust EST LOGISTICS to deliver excellence every step of the way. Email: estlogistics8@gmail.com',
