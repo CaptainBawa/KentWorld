@@ -2,6 +2,10 @@ import asiedua from '../assets/asiedua.jpg';
 import asiedua1 from '../assets/asiedua1.jpg';
 import asiedua2 from '../assets/asiedua2.jpg';
 import tiens from '../assets/tiens.jpg';
+import tiens1 from '../assets/tiens1.jpg';
+import tiens2 from '../assets/tiens2.jpg';
+import tiens3 from '../assets/tiens3.jpg';
+import tiens4 from '../assets/tiens4.jpg';
 import naff from '../assets/naff.jpg';
 import glam from '../assets/glam.jpg';
 import glam1 from '../assets/glam1.jpg';
@@ -9,6 +13,13 @@ import frame from '../assets/frame.jpg';
 import sika from '../assets/sika.jpg';
 import vee from '../assets/vee.jpg';
 import lyns from '../assets/lyns.jpg';
+import lyns1 from '../assets/lyns1.jpg';
+import lyns2 from '../assets/lyns2.jpg';
+import lyns3 from '../assets/lyns3.jpg';
+import lyns4 from '../assets/lyns4.jpg';
+import lyns5 from '../assets/lyns5.jpg';
+import lyns6 from '../assets/lyns6.jpg';
+import lyns7 from '../assets/lyns7.jpg';
 import kelly from '../assets/kelly.jpg';
 import sparkles from '../assets/sparkles.jpg';
 import ike from '../assets/ike.jpg';
@@ -65,7 +76,7 @@ const businessData = [
   },
   {
     id: 2,
-    images: [tiens, tiens, tiens, tiens],
+    images: [tiens, tiens1, tiens2, tiens3, tiens4],
     business_name: 'GL BAL TIENS Natural Healthcare',
     location: ' Dunkwa, near Central Market',
     business_description: 'GL BAL TIENS Natural Healthcare is dedicated to providing specialized treatments for a variety of health issues using natural methods',
@@ -119,7 +130,7 @@ const businessData = [
   },
   {
     id: 8,
-    images: [lyns, lyns, lyns, lyns],
+    images: [lyns, lyns1, lyns2, lyns3, lyns4, lyns5, lyns6, lyns7],
     business_name: "D'Lyns Condos",
     location: 'Koforidua - Apenkwa',
     business_description: "Welcome to D'Lyns Condos, your luxury haven in the heart of Koforidua. We offer top-tier apartments and hotel accommodations designed to provide comfort, elegance, and exceptional service to our guests.Our Services: *Luxury Apartments:* Stylish and comfortable living spaces equipped with modern amenities. *Hotel Accommodations:* Elegant and well-appointed hotel rooms for short-term and long-term stays. Email: dlynscondos@gmail.com",
@@ -394,7 +405,7 @@ const businessData = [
     location: 'Ahinsan Bonsuom, Kumasi',
     business_description: 'Ann Bakes & Cooks is a culinary service dedicated to providing mouth-watering homemade meals and baked goods. From savory stews and hearty breakfasts to sweet treats like cakes and biscuits, we offer a wide variety of delicious options to suit every occasion. We specialize in local drinks, fresh chips, meat bread, meat pies, and spring rolls. Our cakes are not only tasty but also beautifully decorated, perfect for celebrations. Special Services:  Large-scale cooking for weddings, funerals, parties, and other events. Custom cake making and decorations tailored to your needs. We also provide reliable delivery services, ensuring your meals arrive fresh and on time. Facebook: Anastasiah Asamoah',
     contact: ' 0245212171',
-    category: 'Designers',
+    category: 'Food',
   }
 ];
 
