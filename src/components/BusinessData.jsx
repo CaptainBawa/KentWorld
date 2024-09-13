@@ -47,6 +47,10 @@ import eli1 from '../assets/eli1.jpg';
 import tek from '../assets/tek.jpg';
 import tek1 from '../assets/tek1.jpg';
 import tek2 from '../assets/tek2.jpg';
+import ann from '../assets/ann.jpg';
+import ann1 from '../assets/ann1.jpg';
+import ann2 from '../assets/ann2.jpg';
+import ann3 from '../assets/ann3.jpg';
 
 
 const businessData = [
@@ -381,6 +385,15 @@ const businessData = [
     location: 'Location',
     business_description: 'Tektrok Designs is a creative agency specializing in a wide array of design and branding services tailored to meet the diverse needs of our clients. We are passionate about transforming ideas into visually compelling and impactful designs. Services: Social Media Designs:* Enhance your online presence with captivating graphics tailored for social media platforms. E-Flyers:* Digital flyers that make your promotions and announcements stand out. *Invitation Designs:* Customized and elegant invitations for all occasions. *Motion Graphics:* Engaging and dynamic animations that bring your content to life. *Corporate Branding:* Comprehensive branding solutions to define and elevate your business identity. *T-Shirt Designs:* Unique and creative designs for custom apparel. Whether you need innovative designs for your social media, compelling motion graphics, or professional corporate branding, Tektrok Designs is here to help you achieve your vision. Let’s create something amazing together! *Email:* tectrokdesigns@gmail.com',
     contact: '0595456881',
+    category: 'Designers',
+  },
+  {
+    id: 38,
+    images: [ann3, ann, ann1, ann2],
+    business_name: "Ann Bakes & Cooks",
+    location: 'Ahinsan Bonsuom, Kumasi',
+    business_description: 'Ann Bakes & Cooks is a culinary service dedicated to providing mouth-watering homemade meals and baked goods. From savory stews and hearty breakfasts to sweet treats like cakes and biscuits, we offer a wide variety of delicious options to suit every occasion. We specialize in local drinks, fresh chips, meat bread, meat pies, and spring rolls. Our cakes are not only tasty but also beautifully decorated, perfect for celebrations. Special Services:  Large-scale cooking for weddings, funerals, parties, and other events. Custom cake making and decorations tailored to your needs. We also provide reliable delivery services, ensuring your meals arrive fresh and on time. Facebook: Anastasiah Asamoah',
+    contact: ' 0245212171',
     category: 'Designers',
   }
 ];
